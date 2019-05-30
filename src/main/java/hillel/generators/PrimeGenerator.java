@@ -1,10 +1,11 @@
-package generators;
+package hillel.generators;
 
 public class PrimeGenerator extends Generator {
     public PrimeGenerator() {
         super (2)8
     }
 
+    @Override
     protected int generateNextMember() {
         // if this member of our sequence was already generated
         // return it from array
